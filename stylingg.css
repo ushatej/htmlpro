@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url("flower.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#home{
+    text-align:start;
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px;
+    color:darkblue;
+}
+
+#me{
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(66, 12, 117);
+}
+
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 25px;
+    background-color: plum;
+}
+
+ul li.active a{
+    background-color: rgb(235, 248, 244);
+    color: darkmagenta;
+}
+
+ul li{
+    display: inline-block;
+    font-size: 18px;
+}
+
+ul li a{
+   text-decoration: none;
+    color: rgb(236, 16, 130);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s;
+}
+
+ul li a:hover{
+    background-color:darkgrey;
+
+}
+
+
+
+
